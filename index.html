@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <title>Marisa's Vegan Burgers - HTML Form</title>
+  </head>
+  <body>
+    <section id="overlay">
+      <img src="images/burger-logo.png" alt="Marisa's Vegan Burgers Logo" id="logo">
+      <hr>
+      
+      <form action="submission.html" method="POST">
+				<h1>Create Your Burger!</h1>
+        
+        <section class="protein">
+          <label for="patty">What type of patty would you like?</label>
+    			<select id="patty" name="patty">
+            <option value="impossible">Impossible Burger</option>
+            <option value="beyond">Beyond Meat</option>
+          </select>  
+        </section>
+
+        <section class="patties">
+          <label for="amount">How many patties would you like?</label>
+          <input type="number" name="amount" id="amount">
+        </section>
+      
+        <section class="cooked">
+          <label for="doneness">How do you want your patty cooked</label>
+          <br>
+          <span>Rare</span>
+          <input type="range" name="doneness" id="doneness" value="3" min="1" max="5">
+          <span>Well-Done</span>
+        </section>
+        
+        <section class="toppings">
+          <span>What toppings would you like?</span>
+          <br>
+          <input type="checkbox" name="topping" id="lettuce" value="lettuce">
+          <label for="lettuce">Butterhead Lettuce</label>
+          <input type="checkbox" name="topping" id="tomato" value="tomato">
+          <label for="tomato">Heirloom Tomato</label>
+          <input type="checkbox" name="topping" id="onion" value="onion">
+          <label for="onion">Maui Onion</label>
+        </section>
+        
+        <section class="cheesy">
+          <span>Would you like to add Chao Cheddar Cheese?</span>
+          <br>
+          <input type="radio" name="cheese" id="yes" value="yes">
+          <label for="yes">Yes, please</label>
+          <input type="radio" name="cheese" id="no" value="yes">
+          <label for="no">Not a fan</label>
+        </section>
+
+        <section class="avocado">
+          <span>What about avocado?</span>
+          <br>
+          <input type="radio" name="avo" id="yes" value="yes">
+          <label for="yes">Sure</label>
+          <input type="radio" name="avo" id="no" value="no">
+          <label for="no">I'll pass</label>
+        </section>
+
+        <section class="bun-type">
+          <label for="bun">What type of bun would you like?</label>
+          <select name="bun" id="bun">
+            <option value="brioche">Brioche</option>
+            <option value="sesame">Sesame</option>
+            <option value="glutenfree">Gluten-free</option>
+            <option value="wrap">Lettuce wrap</option>
+          </select>
+        </section>
+        
+        <section class="sauce-selection">
+          <label for="sauce">Any sauces?</label>
+          <br>
+          <input type="checkbox" name="sauces" id="mayo" value="mayo">
+          <label for="mayo">Mayo</label>
+          <input type="checkbox" name="sauces" id="ketchup" value="ketchup">
+          <label for="ketchup">Ketchup</label>
+          <input type="checkbox" name="sauces" id="mustard" value="mustard">
+          <label for="mustard">Deli Mustard</label>
+          <input type="checkbox" name="sauces" id="secretsauce" value="secretsauce">
+          <label for="secretsauce">Secret Sauce</label>
+        </section>
+        
+        <section class="extra-info">
+          <label for="extra">Special Instructions</label>
+          <br>
+          <textarea id="extra" name="extra" rows="2" cols="40">Want your buns toasted?</textarea>
+        </section>
+
+        <section class="submission">
+          <input type="submit" value="Make My Burger">
+        </section>
+      </form>
+    </section>
+  </body>
+</html>

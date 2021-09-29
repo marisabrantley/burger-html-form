@@ -1,0 +1,64 @@
+body {
+  background-color: #ffdd59;
+  font-family: Rubik, Arial;
+}
+
+form {
+  text-align: center;
+  line-height: 30px;
+  
+  height: 80%;
+  overflow: auto;
+}
+
+form hr {
+  width: 15%;
+}
+
+h1 {  
+  color: #008037;
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+  font-style: italic;
+  text-align: center;
+}
+
+#burger {
+  width: 100%;
+  margin: 0 auto;
+  max-height: 30%;
+}
+
+#overlay {
+  width: 80%;
+  margin: 3% auto;
+  height: 95vh;
+  background-color: rgba(255, 255, 255);
+  border-radius: 40px;
+}
+
+#logo {
+  height: 275px;
+  display: block;
+  margin: auto;
+}
+
+.protein,
+.patties,
+.cooked,
+.toppings,
+.cheesy,
+.avocado,
+.bun-type,
+.sauce-selection,
+.extra-info {
+  padding: 1.5% 1.5%;
+}
+
+
+.toppings label, .cheesy label {
+  margin-right: 25px;
+}
