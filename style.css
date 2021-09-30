@@ -6,7 +6,6 @@ body {
 form {
   text-align: center;
   line-height: 30px;
-  
   height: 80%;
   overflow: auto;
 }
@@ -66,7 +65,7 @@ p {
   background-color: #4CAF50; /* Green */
   border: none;
   color: #FFFFFF;
-  padding: 15px 32px;
+  padding: 9px 28px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
