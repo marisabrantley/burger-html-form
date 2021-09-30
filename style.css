@@ -58,15 +58,17 @@ p {
   padding: 1.5% 1.5%;
 }
 
-
 .toppings label, .cheesy label {
   margin-right: 25px;
 }
 
-a.button {
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
-    text-decoration: none;
-    color: initial;
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: #FFFFFF;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
