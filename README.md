@@ -16,6 +16,7 @@ The lesson discussed form validation, specifically HTML5 built-in client-side va
 
 While creating the GitHub Page for this project, I learned GitHub returns a "405 Not Allowed" error when trying to submit HTML form post requests. Instead, I omitted the action and method attributes and added a button and link to the submission page.
 
+I also made the logo on Canva.
 
 ## Launch
 
