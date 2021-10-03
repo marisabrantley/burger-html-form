@@ -2,7 +2,7 @@
 
 ## Objective
 
-#### Hungry for a burger? If not, you will be after filling out this form!
+#### Hungry for a burger? If not, you will be after filling out this form! :hamburger:
 
 
 This burger order form was created as part of a lesson about HTML forms, action and method attributes, label and input elements, and setting the type attributes for the fields.
